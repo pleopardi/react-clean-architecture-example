@@ -21,6 +21,9 @@
       "errors/*": [
         "errors/*"
       ],
+      "features/*": [
+        "features/*"
+      ],
       "modules/*": [
         "modules/*"
       ],
