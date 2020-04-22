@@ -18,6 +18,9 @@
       "components/*": [
         "components/*"
       ],
+      "errors/*": [
+        "errors/*"
+      ],
       "utils/*": [
         "utils/*"
       ]
