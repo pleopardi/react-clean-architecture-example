@@ -27,6 +27,9 @@
       "modules/*": [
         "modules/*"
       ],
+      "utilities/*": [
+        "utilities/*"
+      ],
       "utils/*": [
         "utils/*"
       ]
