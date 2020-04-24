@@ -31,9 +31,6 @@
       "utilities/*": [
         "utilities/*"
       ],
-      "utils/*": [
-        "utils/*"
-      ]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
