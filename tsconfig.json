@@ -16,7 +16,8 @@
     "outDir": "./build",
     "paths": {
       "components/*": [
-        "components/*"
+        "components/*",
+        "presentation/components/*"
       ],
       "errors/*": [
         "errors/*"
@@ -30,9 +31,6 @@
       "utilities/*": [
         "utilities/*"
       ],
-      "utils/*": [
-        "utils/*"
-      ]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
