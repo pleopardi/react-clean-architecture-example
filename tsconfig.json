@@ -16,7 +16,8 @@
     "outDir": "./build",
     "paths": {
       "components/*": [
-        "components/*"
+        "components/*",
+        "presentation/components/*"
       ],
       "errors/*": [
         "errors/*"
