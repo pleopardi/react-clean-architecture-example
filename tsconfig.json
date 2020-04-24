@@ -16,11 +16,21 @@
     "outDir": "./build",
     "paths": {
       "components/*": [
-        "components/*"
+        "components/*",
+        "presentation/components/*"
       ],
-      "utils/*": [
-        "utils/*"
-      ]
+      "errors/*": [
+        "errors/*"
+      ],
+      "features/*": [
+        "features/*"
+      ],
+      "modules/*": [
+        "modules/*"
+      ],
+      "utilities/*": [
+        "utilities/*"
+      ],
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
