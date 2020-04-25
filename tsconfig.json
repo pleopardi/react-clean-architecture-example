@@ -16,7 +16,6 @@
     "outDir": "./build",
     "paths": {
       "components/*": [
-        "components/*",
         "presentation/components/*"
       ],
       "errors/*": [
@@ -25,8 +24,14 @@
       "features/*": [
         "features/*"
       ],
+      "layouts/*": [
+        "presentation/layouts/*"
+      ],
       "modules/*": [
         "modules/*"
+      ],
+      "pages/*": [
+        "presentation/pages/*"
       ],
       "utilities/*": [
         "utilities/*"

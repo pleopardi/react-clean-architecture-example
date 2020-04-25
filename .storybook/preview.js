@@ -1,8 +1,13 @@
 import { addDecorator } from '@storybook/react'
-import React from "react"
+import { Global } from '@emotion/core'
+import React, { Fragment } from "react"
 import { ThemeProvider } from 'emotion-theming';
-import { theme } from '../src/utils/theme'
+import { reset } from '../src/presentation/utils/reset';
+import { theme } from '../src/presentation/utils/theme'
 
 addDecorator(storyFn => (
-  <ThemeProvider theme={theme}>{storyFn()}</ThemeProvider>
+  <Fragment>
+    <Global styles={reset} />
+    <ThemeProvider theme={theme}>{storyFn()}</ThemeProvider>
+  </Fragment>
 ))

@@ -1,4 +1,6 @@
-import React, { FunctionComponent } from 'react';
+/** @jsx jsx */
+import { FunctionComponent } from 'react';
+import { jsx } from '@emotion/core';
 
 interface Props {
   children: string;
@@ -13,6 +15,12 @@ export const Button: FunctionComponent<Props> = ({
 }) => {
   return (
     <button
+      css={(theme) => ({
+        backgroundColor: theme.colors.primary,
+        color: isDisabled ? theme.colors.disabled : theme.colors.background,
+        fontSize: theme.fontSizes[2],
+        padding: theme.space[2],
+      })}
       disabled={isDisabled}
       onClick={() => {
         onClick();
