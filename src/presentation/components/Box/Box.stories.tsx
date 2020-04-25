@@ -1,13 +1,13 @@
 import React, { FunctionComponent } from 'react';
-import { Card } from './Card';
+import { Box } from './Box';
 
 export default {
-  component: Card,
-  title: 'Card',
+  component: Box,
+  title: 'Box',
 };
 
 export const Example: FunctionComponent = () => (
-  <Card>
-    <h1>Hello World!</h1>
-  </Card>
+  <Box>
+    <p>Content here</p>
+  </Box>
 );
