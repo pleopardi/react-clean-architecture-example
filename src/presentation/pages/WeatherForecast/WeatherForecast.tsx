@@ -92,7 +92,7 @@ export const WeatherForecast: FunctionComponent = () => {
               <Text variant="title">Forecast</Text>
             </Flex>
             {weather.weather.place && (
-              <Text>The weather today in {weather.weather.place}</Text>
+              <Text>The weather now in {weather.weather.place}</Text>
             )}
             <Text>
               Weather is {weather.weather.name.toLowerCase()}:{' '}
