@@ -54,8 +54,8 @@ export const WeatherForecast: FunctionComponent = () => {
           </Margin>
         </Flex>
         <Text>or</Text>
-        <Flex css={{ height: 40, alignItems: 'center' }}>
-          <Button onClick={handleGetPosition} isDisabled={position.isLoading}>
+        <Flex css={{ alignItems: 'center', flexWrap: 'wrap' }}>
+          <Button isDisabled={position.isLoading} onClick={handleGetPosition}>
             Get position
           </Button>
           {position.error !== null && (
@@ -67,7 +67,7 @@ export const WeatherForecast: FunctionComponent = () => {
       </Box>
       <Box>
         <Text>then</Text>
-        <Flex css={{ height: 40, alignItems: 'center' }}>
+        <Flex css={{ alignItems: 'center', flexWrap: 'wrap' }}>
           <Button
             isDisabled={
               !position.isValid || position.isLoading || weather.isLoading
