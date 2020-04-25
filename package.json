@@ -47,6 +47,7 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
+  "homepage": "http://pleopardi.github.io/react-clean-architecture-example",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
