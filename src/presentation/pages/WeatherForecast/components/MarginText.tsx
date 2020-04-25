@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { Margin, Props as MarginProps } from 'components/Margin';
 import { Text, Props as TextProps } from 'components/Text';
 
-interface Props extends MarginProps, TextProps {}
+export interface Props extends MarginProps, TextProps {}
 
 export const MarginText: FunctionComponent<Props> = (props) => {
   return (
