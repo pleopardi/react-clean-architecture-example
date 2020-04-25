@@ -47,7 +47,7 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "homepage": "http://pleopardi.github.io/react-clean-architecture-example",
+  "homepage": "https://pleopardi.github.io/react-clean-architecture-example/",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -71,9 +71,11 @@
     "build": "yarn clean && webpack --mode production",
     "build-storybook": "build-storybook",
     "clean": "rm -rf build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --hot --mode development --open",
     "format": "prettier --write 'src/**/*.{css,js,jsx,json,md,mdx,ts,tsx}'",
     "lint": "eslint --fix --quiet 'src/**/*.{js,jsx,ts,tsx}'",
+    "predeploy": "yarn build",
     "reset": "rm -rf build && rm -rf node_modules && yarn",
     "serve": "yarn build && node_modules/.bin/serve build",
     "storybook": "start-storybook -p 6006",
