@@ -6,7 +6,7 @@ import { ThemeProvider } from 'emotion-theming';
 import { reset } from './utils/reset';
 import { store } from './store';
 import { theme } from './utils/theme';
-import { WeatherForecast } from 'presentation/pages/WeatherForecast';
+import { WeatherForecast } from 'pages/WeatherForecast';
 
 export const App: FunctionComponent = () => {
   return (
