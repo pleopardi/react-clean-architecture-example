@@ -24,8 +24,8 @@
       "features/*": [
         "features/*"
       ],
-      "layout/*": [
-        "presentation/layout/*"
+      "layouts/*": [
+        "presentation/layouts/*"
       ],
       "modules/*": [
         "modules/*"
