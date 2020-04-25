@@ -1,10 +1,11 @@
 export const theme = {
   colors: {
-    background: '#FFF',
+    background: '#FAFAFA',
+    disabled: '#AAA',
+    error: '#C00',
     muted: '#F6F6F6',
     primary: '#07C',
     secondary: '#30C',
-    text: '#000',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {
