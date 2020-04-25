@@ -6,4 +6,4 @@
 - Add your API key on .env file
 - Start with `yarn dev` or `yarn serve`
 
-The demo is puslished at <https://pleopardi.github.io/react-clean-architecture-example/>
+The demo is published at <https://pleopardi.github.io/react-clean-architecture-example/>
